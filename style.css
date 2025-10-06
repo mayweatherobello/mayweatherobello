@@ -1,0 +1,88 @@
+.body {
+color: rgb(255, 115, 0);
+font-size: 30px;
+position: center;
+font-family: "Epilogue", sans-serif;
+
+}
+    nav {
+      background: #e08989;
+      border: 2px solid;
+      padding: 20px 30px;
+      height: 50px;
+      width: relative;
+      position: relative;          
+
+    }
+    nav ul {
+      list-style: none;
+      margin: 50px;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end; 
+      /* pushes login/register to right */      
+    }
+
+    /* nav ul li {
+      margin-left: 20px;
+    } */
+      
+    nav ul li a {
+      text-decoration: none;
+      color: rgb(153, 8, 134);
+      font-weight: bold;
+      
+    }       
+      
+    .img src{
+        height: 100px;
+        width: 100px;
+        border: 100px;
+        position: relative;
+        background-color: chartreuse;
+    
+    }
+      
+    h1 {
+        color: rgb(127, 44, 204);
+        position: center;
+        font-style: italic;
+        position: center;
+        font-weight: bolder;
+        font-size: 50px;
+        padding: 0%;
+        alignment-baseline: center;
+    
+    }
+    h2{
+        color:crimson;
+        font-weight: bolder;
+        font-size: 40px;
+        padding: center;
+    }
+
+   
+    /* .about {
+      padding: 20px 20px;
+      border: 15px;
+      color: aquamarine;
+      border: 1px solid;
+      
+    } */
+    .nav-links{
+      color: chartreuse;
+      font-size: 20px;
+      padding-right: 0px;
+      position: sticky;
+      flex-direction: row;
+      motion-rotation: reverse;
+      
+    }
+    .visually-hidden{
+      color: chartreuse;
+      border-color: blueviolet;
+      font-weight: bolder;
+      background-origin: padding-box;
+      border-spacing: 30px;
+    }
+    
